@@ -13,7 +13,7 @@ export function NavBar() {
                 {
                     links.map((link) => {
                         return(
-                            <HeaderLink link={link} key={link}/>    
+                            <HeaderLink link={link} key={link.name}/>    
                         )
                     })
                 }
