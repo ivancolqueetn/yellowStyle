@@ -34,8 +34,18 @@ export function TextProvider({children}) {
                     title:'Boston  RealEstate App',
                     desc:'Branding & UI'
                 }
-            ]
+            ],
+            workButton:'View More'
+        },
+        footer:{
+            iconsLegend:'Follow us',
+            icons:['face.svg','insta.svg','yt.svg','x.svg'],
+            links:[{name:'Home',path:'/'},{name:'About',path:'/'},{name:'Works',path:'/works'},{name:'Blog',path:'/'},{name:'Contact',path:'/'}],
+            info:['Integrations','Careers','Privacy Policy','Terms & Conditios','Cookie police'],
+            dir:['+1 (0) 911 18 27 16 ','INFO@BOLTZSHIFT.COM','Based in San Francisco','United Kingdom'],
+            copyright:'Copyright @2023 All Rights Reserved'
         }
+
     }
     return (
         <TextContext.Provider value={value}>{children}</TextContext.Provider>
