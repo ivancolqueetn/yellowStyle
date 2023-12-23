@@ -10,7 +10,7 @@ export function NavBar() {
     return (
         <header className="flex justify-between items-center w-full h-11 border border-solid border-pri ">
             <img src="mainLogo.svg" alt="" />
-            <ul className="flex">
+            <ul className="hidden sm:flex">
                 {
                     links.map((link) => {
                         return(

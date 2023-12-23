@@ -43,5 +43,6 @@ export function Footer() {
             </div>
             <p className="pb-4">{copyright}</p>
         </footer>
+        
     )
 }
