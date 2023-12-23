@@ -19,21 +19,21 @@ export function Footer() {
                         }
                     </div>
                 </div>
-                <div className="min-w-[180px]">
+                <div className="min-w-[200px]">
                     {
                         links.map((link) =>
                             <h3 key={link.name}>{link.name}</h3>
                         )
                     }
                 </div>
-                <div className="min-w-[180px]">
+                <div className="min-w-[200px]">
                     {
                         info.map((el) =>
                             <h3 key={el}>{el}</h3>
                         )
                     }
                 </div>
-                <div className="min-w-[180px]">
+                <div className="min-w-[200px]">
                     {
                         dir.map((el) =>
                             <h3 key={el}>{el}</h3>

@@ -9,7 +9,8 @@ export default {
     colors:{
       pri: '#FAD007',
       dark:'#000000',
-      white:'#FFFFFF'
+      white:'#FFFFFF',
+      sec:'#39393B'
     }
   },
   plugins: [],

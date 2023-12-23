@@ -4,7 +4,7 @@ import { TextContext } from "./TextContext";
 export function TextProvider({children}) {
     const value={
         header:{
-            links:[{name:'Home',path:'/'},{name:'About',path:'/'},{name:'Works',path:'/works'},{name:'Blog',path:'/'},{name:'Contact',path:'/contact'}],
+            links:[{name:'Home',path:'/'},{name:'About',path:'/about'},{name:'Works',path:'/works'},{name:'Blog',path:'/'},{name:'Contact',path:'/contact'}],
             getInButton: 'Get in touch'
         },
         work:{
@@ -57,6 +57,37 @@ export function TextProvider({children}) {
                 { type:'text',name:'message',text:'what you need?'}
             ],
             txtButton: 'Send'
+        },
+        about:{
+            title:'KNOW OUR SERVICES',
+            subtitle:'Our exceptional desing services',
+            cards:[
+                {
+                    id:1,
+                    title:'Branding',
+                    icon:'vite.svg',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                },
+                {
+                    id:2,
+                    title:'Branding',
+                    icon:'vite.svg',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                },
+                {
+                    id:3,
+                    title:'Branding',
+                    icon:'vite.svg',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                },
+                {
+                    id:4,
+                    title:'Branding',
+                    icon:'vite.svg',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                }
+
+            ]
         }
     }
     return (
