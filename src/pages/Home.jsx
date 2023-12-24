@@ -14,6 +14,7 @@ export function Home() {
         Optio incidunt nostrum perspiciatis necessitatibus exercitationem quibusdam dolor porro aspernatur maiores! Fuga illum qui quaerat deserunt facilis numquam adipisci alias, explicabo sit quis rerum eum eos? Nesciunt quod sit reprehenderit.
         Deleniti minus nisi veritatis dolorum commodi! Dolorum corporis placeat, omnis minima repellat tempora aliquam similique animi est maiores laudantium ratione ad excepturi fuga eaque praesentium, beatae, officia error neque expedita.</p>
         <p>git desde miRama</p>
+        <p>push de datos desde mi rama </p>
         </>
     )
 }

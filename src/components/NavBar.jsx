@@ -5,11 +5,12 @@ import { Button } from "./Button"
 
 export function NavBar() {
     const { header } = useContext(TextContext)
-    const {links }= header
+    const {links , getInButton} = header
+    console.log(getInButton);
     return (
         <header className="flex justify-between items-center w-full h-11 border border-solid border-pri ">
             <img src="mainLogo.svg" alt="" />
-            <ul className="flex">
+            <ul className="hidden sm:flex">
                 {
                     links.map((link) => {
                         return(
@@ -18,7 +19,7 @@ export function NavBar() {
                     })
                 }
             </ul> 
-            <Button/>   
+            <Button >{getInButton}</Button>    
         </header>
     )
 }
