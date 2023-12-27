@@ -95,6 +95,132 @@ export function TextProvider({children}) {
             {icon:'phone.svg', text:'Tigo'},
             {icon:'phone.svg', text:'Axes'},
             {icon:'phone.svg', text:'Pil'},
+        ],
+        process:{
+            title:'OUR PROCESS',
+            cards:[
+                {
+                    id:1,
+                    number:'01',
+                    title:'Research & Plan',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                },
+                {
+                    id:2,
+                    number:'02',
+                    title:'Research & Plan',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                },
+                {
+                    id:3,
+                    number:'03',
+                    title:'Research & Plan',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                },
+                {
+                    id:4,
+                    number:'04',
+                    title:'Research & Plan',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.'
+                }
+            ]
+        },
+        plans:{
+            title:'CHOOSE YOUR PLAN',
+            subtitle:'Consign offers a number of pricing plans to help you find one the your business needs best.',
+            checkIcon:'check.svg',
+            cards:[
+                {
+                    id:1,
+                    title:'PRO',
+                    price:249,
+                    buttonLegend:'Get Start',
+                    details:[
+                        {id:1,legend:'Daily updates1'},
+                        {id:2,legend:'Daily updates2'},
+                        {id:3,legend:'Daily updates3'},
+                        {id:4,legend:'Daily updates4'},
+                        {id:5,legend:'Daily updates5'},
+                        {id:6,legend:'Daily updates6'}
+                    ]
+                },
+                {
+                    id:2,
+                    title:'PRO',
+                    price:349,
+                    buttonLegend:'Get Start',
+                    details:[
+                        {id:1,legend:'Daily updates1'},
+                        {id:2,legend:'Daily updates2'},
+                        {id:3,legend:'Daily updates3'},
+                        {id:4,legend:'Daily updates4'},
+                        {id:5,legend:'Daily updates5'},
+                        {id:6,legend:'Daily updates6'}
+                    ]
+                },
+                {
+                    id:3,
+                    title:'PRO',
+                    price:549,
+                    buttonLegend:'Get Start',
+                    details:[
+                        {id:1,legend:'Daily updates1'},
+                        {id:2,legend:'Daily updates2'},
+                        {id:3,legend:'Daily updates3'},
+                        {id:4,legend:'Daily updates4'},
+                        {id:5,legend:'Daily updates5'},
+                        {id:6,legend:'Daily updates6'}
+                    ]
+                }
+            ]
+        },
+        reviews:{
+            title:'TESTIMONIALS',
+            logo:'pacman.svg',
+            enterprise:'Converkit',
+            cards:[
+                {
+                    id:1,
+                    title:'I’m looking forward to work with them again.',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.',
+                    userName:'Dora Exploradora',
+                    userImg:'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=110',
+                    userJob:'Ceo & Founder Conpany',
+                },
+                {
+                    id:2,
+                    title:'I’m looking forward to work with them again.',
+                    desc:'Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.',
+                    userName:'Dora Exploradora',
+                    userImg:'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=110',
+                    userJob:'Ceo & Founder Conpany',
+                }
+            ]
+        },
+        banner:{
+            title:'Innovative web & mobile Product Solutions',
+            desc:'Join today and experience the difference, Don’t miss out the opportunity to transform your business. Let’s grow together',
+            buttonLegend:'Get a free quotation',
+            details:[
+                {
+                    id:1,
+                    icon:'check.svg',
+                    legend:'Afordable plans for All'
+                },
+                {
+                    id:2,
+                    icon:'check.svg',
+                    legend:'Secure and reliable'
+                }
+            ]
+        },
+        homeMarquee:[
+            {id:1, number:'01',legend:'Developing'},
+            {id:2, number:'02',legend:'Design'},
+            {id:3, number:'03',legend:'UX'},
+            {id:4, number:'04',legend:'Strategy'},
+            {id:5, number:'05',legend:'Consulting'},
+            {id:6, number:'06',legend:'Copiwriting'},
         ]
     }
     return (
