@@ -88,7 +88,14 @@ export function TextProvider({children}) {
                 }
 
             ]
-        }
+        },
+        marquee:[
+            {icon:'phone.svg', text:'Entel'},
+            {icon:'phone.svg', text:'Cemento Viacha'},
+            {icon:'phone.svg', text:'Tigo'},
+            {icon:'phone.svg', text:'Axes'},
+            {icon:'phone.svg', text:'Pil'},
+        ]
     }
     return (
         <TextContext.Provider value={value}>{children}</TextContext.Provider>

@@ -1,9 +1,10 @@
 import { useContext } from "react"
 import { TextContext } from "../context/TextContext"
 import { AboutCard } from "../components/AbouCard"
+import { Marquee } from "../components/Marquee"
 
 export function About() {
-    const {about} = useContext(TextContext)
+    const {about,marquee} = useContext(TextContext)
 
     const {title,subtitle,cards}= about
     return (
@@ -19,6 +20,17 @@ export function About() {
                     )}
                 </div>
             </div>
+            <Marquee>
+                 {
+                    marquee.map(el=>
+                        <div className="inline-block relative h-full" key={el.text}>
+                            <img  className="absolute top-0 left-[20%]" src={el.icon} alt="" />
+                            <h3 className="mx-[90px] text-lg font-bold">{el.text}</h3>
+                        </div>    
+                    )
+                 }       
+                 
+            </Marquee>
         </section>
     )
 }

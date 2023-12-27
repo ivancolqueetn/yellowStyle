@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes:{
+        slide:{
+          '0%':{transform: ' translateX(0)'},
+          '100%':{transform: 'translateX(-100%)'}
+        }
+      },
+      animation:{
+        'slider': 'slide 40s linear infinite'
+      }
+    },
     colors:{
       pri: '#FAD007',
       dark:'#000000',
