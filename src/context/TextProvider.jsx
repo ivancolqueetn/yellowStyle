@@ -89,6 +89,14 @@ export function TextProvider({children}) {
 
             ]
         },
+
+        home:{
+            title:['WE ARE','CREATIVE','AGENCIES','ABOUT THE BOLTZSHIFT AGENCY','GET AQUANTED WITH OUR KEY FATCS' ],
+            subtitle:['Award-winning studio Based in San Francisco','Boltzshift Studio is a design & develop agency of the future with 120+ successful projects in their portfolio.olt','SDF Boltzshift is a distinguished design and development agency based in the United Kingdom, known for our commitment to crafting exceptional digital experiences.','Since  2018 Boltzshift has been reshaping the web & mobile apps with top-notch design and the power of no code.',"Trusted Users","Project Completed","Clients Satisfaction"],
+            imgTitle:["https://time.com/personal-finance/static/84016af8afe9681354d097200e07945e/57e17/history-of-credit-cards.jpg","https://www.shutterstock.com/image-vector/play-button-icon-red-simple-260nw-2083646875.jpg","https://www.lacamaradesanmartin.com.ar/wp-content/uploads/2021/04/Escuela-de-Negocios-idc-1.jpg"],
+            icon:'arrow.svg',
+            homeButton:'Book a demo'     
+        },
         marquee:[
             {icon:'phone.svg', text:'Entel'},
             {icon:'phone.svg', text:'Cemento Viacha'},
@@ -222,6 +230,7 @@ export function TextProvider({children}) {
             {id:5, number:'05',legend:'Consulting'},
             {id:6, number:'06',legend:'Copiwriting'},
         ]
+
     }
     return (
         <TextContext.Provider value={value}>{children}</TextContext.Provider>
