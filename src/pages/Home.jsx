@@ -1,18 +1,13 @@
 
 import { useContext } from "react"
-
 import { TextContext } from "../context/TextContext"
-
-import { useContext } from "react";
 import { Banner } from "../components/Banner";
 import { Marquee } from "../components/Marquee";
 import { Plans } from "../components/Plans";
 import { Process } from "../components/Process";
 import { Reviews } from "../components/Reviews";
-import { TextContext } from "../context/TextContext";
-
 export function Home() {
-    const {home} = useContext(TextContext)
+    const {home,homeMarquee} = useContext(TextContext)
     return (
 
 

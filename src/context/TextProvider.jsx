@@ -96,9 +96,7 @@ export function TextProvider({children}) {
             imgTitle:["https://time.com/personal-finance/static/84016af8afe9681354d097200e07945e/57e17/history-of-credit-cards.jpg","https://www.shutterstock.com/image-vector/play-button-icon-red-simple-260nw-2083646875.jpg","https://www.lacamaradesanmartin.com.ar/wp-content/uploads/2021/04/Escuela-de-Negocios-idc-1.jpg"],
             icon:'arrow.svg',
             homeButton:'Book a demo'     
-        }
-
-
+        },
         marquee:[
             {icon:'phone.svg', text:'Entel'},
             {icon:'phone.svg', text:'Cemento Viacha'},
