@@ -1,7 +1,15 @@
+
 import { useContext } from "react"
 
 import { TextContext } from "../context/TextContext"
-import { Button } from "../components/Button"
+
+import { useContext } from "react";
+import { Banner } from "../components/Banner";
+import { Marquee } from "../components/Marquee";
+import { Plans } from "../components/Plans";
+import { Process } from "../components/Process";
+import { Reviews } from "../components/Reviews";
+import { TextContext } from "../context/TextContext";
 
 export function Home() {
     const {home} = useContext(TextContext)
@@ -70,6 +78,22 @@ export function Home() {
                 </div>
             </div>
         </section>
+        
+        <Process/>
+        <Plans/>
+        <Reviews/>
+        <Banner/>
+        <Marquee>
+            {
+                homeMarquee.map(item=>
+                    <h1 className="inline-block mx-20 text-xl font-bold" key={item.id}><span className="text-sm">{item.number}</span>{item.legend}</h1>
+                )
+            }
+        </Marquee>
+       
+
+
+
         </>
        
 
