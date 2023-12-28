@@ -14,8 +14,6 @@ import { TextContext } from "../context/TextContext";
 export function Home() {
     const {home} = useContext(TextContext)
     return (
-
-
     <>
         <section className="my-8 justify-center"> 
             <div className=" flex flex-col aling-center ">
@@ -91,9 +89,6 @@ export function Home() {
             }
         </Marquee>
        
-
-
-
         </>
        
 
