@@ -20,7 +20,10 @@ export default {
       pri: '#FAD007',
       dark:'#000000',
       white:'#FFFFFF',
-      sec:'#39393B'
+      sec:'#39393B',
+    },
+    backgroundImage:{
+      radialHome:"radial-gradient(68.97% 53.76% at 55.18% 39.85%, #5A5B09 0%, #000 62.49%);"
     }
   },
   plugins: [],
