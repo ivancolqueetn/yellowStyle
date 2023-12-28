@@ -20,7 +20,8 @@ export default {
       pri: '#FAD007',
       dark:'#000000',
       white:'#FFFFFF',
-      sec:'#39393B'
+      sec:'#39393B',
+      black:'#000000'
     }
   },
   plugins: [],
