@@ -9,17 +9,15 @@ import { Reviews } from "../components/Reviews";
 export function Home() {
     const {home,homeMarquee} = useContext(TextContext)
     return (
-
-
-    <>
+    <main className="px-2 sm:px-4  lg:px-[120px]">
         <section className="my-8 justify-center"> 
             <div className=" flex flex-col aling-center ">
                 <div className="bg-radialHome h-screen flex flex-col justify-center items-center gap-16 lg:p-24 ">
-                    <div className="gap-y-20 flex flex-row flex-wrap  items-center justify-center">
-                        <h1 className=" mx-8 text-5xl sm:text-8xl lg:text-9xl lg:text-pri">{home.title[0]}</h1>
+                    <div className="flex flex-row flex-wrap  items-center justify-center">
+                        <h1 className=" mx-8 text-5xl sm:text-8xl lg:text-7xl lg:text-pri">{home.title[0]}</h1>
                         <img className="mx-8 h-12 w-[80px] lg:h-[100px]" src={home.imgTitle[0]} alt="" />
-                        <h1 className="mx-8 text-5xl sm:text-8xl lg:text-9xl">{home.title[1]}</h1>
-                        <h1 className="mx-8 text-5xl sm:text-8xl lg:text-9xl">{home.title[2]}</h1>
+                        <h1 className="mx-8 text-5xl sm:text-8xl lg:text-7xl">{home.title[1]}</h1>
+                        <h1 className="mx-8 text-5xl sm:text-8xl lg:text-7xl">{home.title[2]}</h1>
                         <img className="mx-8 h-12 w-[100px] lg:h-[100px]" src={home.imgTitle[1]} alt="" />
                         <div className="max-w-[300px]">
                             <h4 className="leading-10 mx-8 text-2xl">{home.subtitle[0]}</h4>
@@ -85,12 +83,6 @@ export function Home() {
                 )
             }
         </Marquee>
-       
-
-
-
-        </>
-       
-
+        </main>
     )
 }
