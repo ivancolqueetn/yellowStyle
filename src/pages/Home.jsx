@@ -12,14 +12,14 @@ export function Home() {
     const {home,homeMarquee} = useContext(TextContext)
     return (
     <main className="px-2 sm:px-4  lg:px-[120px]">
-        <section className="my-8 justify-center"> 
+        <section className="my-12 justify-center"> 
             <div className=" flex flex-col aling-center ">
-                <div className="bg-radialHome h-screen flex flex-col justify-center items-center gap-16 lg:p-24 ">
-                    <div className="gap-y-20 flex flex-row flex-wrap  items-center justify-center">
-                        <h1 className=" mx-8 text-5xl sm:text-8xl lg:text-9xl ">{home.title[0]}</h1>
+                <div className="bg-radialHome h-screen flex flex-col justify-center items-center gap-2 lg:p-24 ">
+                    <div className="gap-y-4 flex flex-row flex-wrap  items-center justify-center">
+                        <h1 className=" mx-8 text-5xl sm:text-6xl lg:text-[5.5em] ">{home.title[0]}</h1>
                         <img className="mx-8 h-12 w-[80px] lg:h-[100px]" src={home.imgTitle[0]} alt="" />
-                        <h1 className="mx-8 text-5xl sm:text-8xl lg:text-7xl">{home.title[1]}</h1>
-                        <h1 className="mx-8 text-5xl sm:text-8xl lg:text-7xl">{home.title[2]}</h1>
+                        <h1 className="mx-8 text-5xl sm:text-6xl lg:text-[5.5em]">{home.title[1]}</h1>
+                        <h1 className="mx-8 text-5xl sm:text-6xl lg:text-[5.5em]">{home.title[2]}</h1>
                         <img className="mx-8 h-12 w-[100px] lg:h-[100px]" src={home.imgTitle[1]} alt="" />
                         <div className="max-w-[300px]">
                             <h4 className="leading-10 mx-8 text-2xl">{home.subtitle[0]}</h4>
@@ -41,17 +41,18 @@ export function Home() {
 
                 <div className="flex flex-col">
                 <div className="flex flex-col  lg:flex-row lg:py-22">
-                    <div className=" mt-32 lg:mt-0 flex flex-col  items-center lg:items-start sm:items-center  lg:h-[200px] w-full lg:w-3/6 p-4">
-                        <h2 className=" leading-10 text-3xl text-center sm:text-5xl lg:text-7xl lg:text-left font-bold">{home.title[3]}</h2>
+                    <div className=" mt-32 lg:mt-0 flex flex-col  items-center lg:items-start sm:items-center   w-full lg:w-3/6 p-4">
+                        <h2 className=" leading-10 text-3xl text-center sm:text-5xl lg:text-6xl lg:text-left font-bold">{home.title[3]}</h2>
                         <img className="py-2 mt-14 bg-cover mx-8 h-15 w-[100px] lg:h-[150px]" src={home.icon[1]} alt="" />
                     </div>
                     <div className="flex flex-col items-center lg:items-start sm:items-center lg:h-32 w-full lg:w-3/6 p-4">
-                        <h4 className=" sm:text-2xl lg:text-3xl w-9/12 text-2xl lg:text-left">{home.subtitle[2]}</h4>
+                        <h4 className=" sm:text-2xl lg:text-2xl w-9/12 text-1xl lg:text-left">{home.subtitle[2]}</h4>
                         <br />
-                        <h4 className=" sm:text-2xl lg:text-3xl w-9/12 text-2xl lg:text-left">{home.subtitle[3]}</h4>
+                        <h4 className=" sm:text-2xl lg:text-2xl w-9/12 text-1xl lg:text-left">{home.subtitle[3]}</h4>
                     </div>
-                    </div>                
-                    <img className="flex py-40 bg-cover" src={home.imgTitle[2]} alt="" />
+                    </div>
+
+                    <img className=" py-8 object-cover" src={home.imgTitle[2]} alt="" />
 
                     <div className="flex flex-col lg:flex-row lg:p-24 justify-center text-center">
                         <div className="lg:h-32 w-full lg:w-2/5 p-4 ">
