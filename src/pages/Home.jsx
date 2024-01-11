@@ -44,11 +44,11 @@ export function Home() {
 
                 <div className="flex flex-col">
                 <div className="flex flex-col  lg:flex-row lg:py-22">
-                    <div className=" mt-32 lg:mt-0 flex flex-col  items-center lg:items-start sm:items-center  lg:h-[200px] w-full lg:w-3/6 p-4">
+                    <div className=" mt-32 lg:mt-0 flex flex-col  items-center lg:items-start sm:items-center  lg:h-[200px]  lg:w-3/6 p-4">
                         <h2 className=" leading-10 text-3xl text-center sm:text-5xl lg:text-7xl lg:text-left font-bold">{home.title[3]}</h2>
                         <img className="py-2 mt-14 bg-cover mx-8 h-15 w-[100px] lg:h-[150px]" src={home.icon[1]} alt="" />
                     </div>
-                    <div className="flex flex-col items-center lg:items-start sm:items-center lg:h-32 w-full lg:w-3/6 p-4">
+                    <div className="flex flex-col items-center lg:items-start sm:items-center lg:h-32 lg:w-3/6 p-4">
                         <h4 className=" sm:text-2xl lg:text-3xl w-9/12 text-2xl lg:text-left">{home.subtitle[2]}</h4>
                         <br />
                         <h4 className=" sm:text-2xl lg:text-3xl w-9/12 text-2xl lg:text-left">{home.subtitle[3]}</h4>
@@ -61,15 +61,15 @@ export function Home() {
                             <h2 className="leading-10 lg:text-start lg:text-6xl sm:text-4xl sm:text-center text-center text-4xl font-bold">{home.title[4]}</h2>
                         </div>
                         <div className="lg:h-32 w-full lg:w-3/5 p-4 lg:flex lg:place-content-around">
-                            <div className="w-full mb-4">
+                            <div className="mb-4">
                                 <div className="flex flex-row justify-center"><h3 className="text-4xl sm:text-6xl lg:text-6xl font-bold">8.2</h3><h3 className="text-4xl sm:text-6xl lg:text-6xl text-pri font-bold">K</h3></div>
                                 <h4 className="text-center text-1xl">{home.subtitle[4]}</h4>
                             </div>
-                            <div className="w-full mb-4">
+                            <div className=" mb-4">
                                 <div className="flex flex-row justify-center"><h3 className="text-4xl sm:text-6xl lg:text-6xl font-bold">120</h3><h3 className="text-4xl sm:text-6xl lg:text-6xl font-bold text-pri">+</h3></div>
                                 <h4 className="text-center text-1xl">{home.subtitle[5]}</h4>
                             </div>
-                            <div className="w-full">
+                            <div className="">
                                 <div className="flex flex-row justify-center"><h3 className="text-4xl sm:text-6xl lg:text-6xl font-bold">97</h3><h3 className="text-4xl sm:text-6xl lg:text-6xl font-bold text-pri">%</h3></div>
                                 <h4 className="text-center text-1xl">{home.subtitle[6]}</h4>
                             </div>
@@ -95,3 +95,5 @@ export function Home() {
 
     )
 }
+
+
