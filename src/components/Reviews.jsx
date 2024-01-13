@@ -5,7 +5,7 @@ export function Reviews() {
     const { reviews } = useContext(TextContext)
     const { title, cards, logo, enterprise } = reviews
     return (
-        <section className="px-8 my-8 flex flex-col gap-8 justify-center items-center lg:px-[130px] ">
+        <section className=" my-8 flex flex-col gap-8 justify-center items-center">
             <h1 className="text-xl font-bold">{title}</h1>
             <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
                 {
